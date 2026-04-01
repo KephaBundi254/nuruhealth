@@ -168,16 +168,16 @@ export default function NuruHealthLandingPage() {
             <button className="rounded-2xl bg-sky-600 px-5 py-3 text-sm font-semibold text-white shadow-lg md:col-span-2">
               Request early access
             </button>
+            
           </form>
         </div>
       </section>
-    </div>
-    
-);
-}
-<div className="mt-4 text-sm text-slate-500">
-  Founded by Kepha Bundi • Contact: 
-  <a href="mailto:kephabundi2@gmail.com" className="underline">
+      <footer className="mt-16 border-t border-slate-200 py-6 text-center text-sm text-slate-500">
+  © 2026 NuruHealth • Founded by Kepha Bundi • Contact: 
+  <a href="mailto:kephabundi2@gmail.com" className="underline ml-1">
     kephabundi2@gmail.com
   </a>
-</div>
+</footer>
+    </div>   
+);
+}

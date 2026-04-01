@@ -160,18 +160,18 @@ export default function NuruHealthLandingPage() {
           <p className="mt-2 text-slate-600">
             Be among the first to access NuruHealth and transform how you support your family’s healthcare.
           </p>
-          <form className="mt-6 grid gap-4 md:grid-cols-2">
-            <input className="rounded-2xl border border-slate-300 px-4 py-3 outline-none" placeholder="Full name" />
-            <input className="rounded-2xl border border-slate-300 px-4 py-3 outline-none" placeholder="Email address" />
-            <input className="rounded-2xl border border-slate-300 px-4 py-3 outline-none md:col-span-2" placeholder="Your location (e.g. Pittsburgh, London, Dallas)" />
-            <textarea className="min-h-[120px] rounded-2xl border border-slate-300 px-4 py-3 outline-none md:col-span-2" placeholder="Who would you like to support in Kenya?" />
-            <button className="rounded-2xl bg-sky-600 px-5 py-3 text-sm font-semibold text-white shadow-lg md:col-span-2">
-              Request early access
-            </button>
-            
-          </form>
+          <div className="mt-6">
         </div>
-      </section>
+  <a
+    href="https://forms.gle/mXjQaT1enzHn5wtc8"
+    target="_blank"
+    className="block w-full rounded-2xl bg-sky-600 px-5 py-4 text-center text-sm font-semibold text-white shadow-lg"
+  >
+    Join the waitlist
+  </a>
+  </div>
+           </section> 
+          
       <footer className="mt-16 border-t border-slate-200 py-6 text-center text-sm text-slate-500">
   © 2026 NuruHealth • Founded by Kepha Bundi • Contact: 
   <a href="mailto:kephabundi2@gmail.com" className="underline ml-1">

@@ -172,5 +172,12 @@ export default function NuruHealthLandingPage() {
         </div>
       </section>
     </div>
-  );
+    
+);
 }
+<div className="mt-4 text-sm text-slate-500">
+  Founded by Kepha Bundi • Contact: 
+  <a href="mailto:kephabundi2@gmail.com" className="underline">
+    kephabundi2@gmail.com
+  </a>
+</div>
